@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 import userRouter from './routes/userRoute.js'
-import productRoute from './routes/productroute.js'
+import productRoute from './routes/productRoute.js'
 
 dotenv.config()
 const app = express()
